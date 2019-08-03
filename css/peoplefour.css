@@ -1,0 +1,58 @@
+.container{
+    width: 100%;
+    height: 2200px;
+}
+
+.background {
+    width: 100%;
+	height: 450px;
+	background:transparent url(../img/background11.jpg) no-repeat center;			/*背景透明/图片/不重画/中间*/ 
+    background-size:cover;
+    margin: auto;
+}
+
+.pp,.qq{
+    width: 1000px;
+    height: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pp{
+    border-bottom: 10px #666 solid;
+}
+
+.qq{
+    border-top: 10px #666 solid;
+}
+
+
+
+.one,.three{
+    width: 70px;
+    height: 800px;
+    background-color: #666;
+}
+
+.two,.twoo{
+    text-align: center;
+    line-height: 50px;
+    color: #666;
+}
+
+.cc{
+    text-align: left;
+    width: 800px;
+    padding-top: 20px;
+}
+
+.left{
+    width: 600px;
+    height: 700px;
+}
+
+.left>div>img:hover{
+    transform:rotate(360deg);
+    transition: 2s;
+}

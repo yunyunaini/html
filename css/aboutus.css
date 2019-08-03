@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    height: 1950px;
+}
+
+.background {
+    width: 100%;
+	height: 450px;
+	background:transparent url(../img/background11.jpg) no-repeat center;			/*背景透明/图片/不重画/中间*/ 
+    background-size:cover;
+}
+
+.about{
+    padding: 60px 0px;
+    width: 104px;
+    height: 30px;
+    margin: auto;
+    border-bottom: 5px solid;
+}
+.about>p{
+    font-weight: normal;
+    font-family: "微软雅黑";
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.way{
+    height: 300;
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #f0f0f0;;
+}
+
+.way img{
+    padding-top: 30px;
+}
+
+.font{
+    height: 80px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+    line-height: 35px;
+}
+
+.font>span{
+    color: rgb(68, 68, 68);
+    font-size: 16px;
+}
+
+.font>p{
+    color:  rgb(119, 119, 119);
+    font-size: 14px;
+};

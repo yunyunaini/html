@@ -1,0 +1,239 @@
+.container{
+    width: 100%;
+    height: 2300px;
+}
+
+.background {
+    width: 100%;
+	height: 450px;
+	background:transparent url(../img/background11.jpg) no-repeat center;			/*背景透明/图片/不重画/中间*/ 
+    background-size:cover;
+    margin: auto;
+}
+
+.second,.third,.thirds {
+	color: #666666;
+	font-family:微软雅黑;
+	font-size: 25px;
+	width: 1100px;
+	height: 50px;
+    margin-left: 210px;
+    margin-top:40px;
+}
+
+.two {
+    width: 1100px;
+    height:560px;
+    background-color: rgb(255,255,255);
+    margin:auto;	
+}
+.two>div {
+    width:1050px; 
+    height:250px;
+    display: inline-flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.twoone {
+	width:515px; 
+    height:240px;
+    overflow: hidden;
+}
+.twotwo {
+    width: 330px;
+    height:254px;
+    overflow: hidden;
+}
+.twoone img:hover,.twotwo img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*第三部分*/
+.three {
+    width: 1100px;
+    height:510px;
+    background-color: rgb(255,255,255);
+    margin:auto;
+    display: flex;
+}
+.threeone {
+	background:transparent url(../img/three1.png) no-repeat center;
+	width:323px; 
+	height:501px;
+	float: left;
+
+}
+.slow {
+    height: 25px;
+    left: 9px;
+    background-color: rgba(60,60,60);
+    width: 305px;
+    position: relative;
+    top: 463px;
+    text-align: center;
+    color: rgb(255,255,255);
+    opacity: 0;
+}
+.threeone:hover .slow,.threetwo:hover .slowone,.threethree:hover .slowone,.threefour:hover .slowtwo,.threefive:hover .slowtwo {
+    opacity: 0.9;
+    transition: 2s;
+}
+.col {
+    text-align: center;
+    color: rgb(255,255,255);
+}
+#add {
+    width: 409px;
+     height:474px;
+    position: relative;
+    top: 13px;
+    right: -25px;
+}
+.slowone {
+    height: 25px;
+    background-color: rgba(60,60,60);
+    position: relative;
+    top: 205px;
+    text-align: center;
+    color: rgb(255,255,255);
+    opacity: 0;
+}
+.threetwo,.threethree {
+    width: 409px;
+    height:230px;
+}
+.threetwo {
+    background:transparent url(../img/three2.png) no-repeat center;
+}
+.threethree {
+    position: relative;
+    top: 13px;
+    background:transparent url(../img/three3.png) no-repeat center;
+}
+
+#join {
+    position: relative;
+    top: 6px;
+    width: 317px;
+    height:470px;
+    float: right;
+    right: -50px;
+}
+
+.slowtwo {
+    height: 25px;
+    width: 300px;
+    background-color: rgba(60,60,60);
+    position: relative;
+    top: 212px;
+    left: 10px;
+    text-align: center;
+    color: rgb(255,255,255);
+    opacity: 0;
+}
+.threefive,.threefour {
+    width: 317px;
+    height:243px;
+}
+.threefour {
+    background:transparent url(../img/three4.png) no-repeat center;
+}
+.threefive {
+    background:transparent url(../img/three5.png) no-repeat center;
+}
+
+/*第四部分*/
+#three {
+   width: 1100px;
+   height:450px;
+   background-color: rgb(255,255,255);
+   margin:auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.thirdsone,.thirdstwo,.thirdsfour,.thirdsfive {
+    width: 300px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.threeblockthree {
+    float: right;
+    margin-right: 20px;
+}
+.threeblockone {
+   float: left;
+   margin-left: 20px;
+}
+.threeblockone,.threeblockthree {
+    width: 300px;
+    height: 415px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.thirdsone {
+    background:transparent url(../img/thirds1.png) no-repeat center;
+}
+
+.thirdsfive {
+    background:transparent url(../img/thirds5.png) no-repeat center;         
+}
+
+.thirdstwo {
+    background:transparent url(../img/thirds2.png) no-repeat center;         
+}
+
+.thirdsfour {
+    background:transparent url(../img/thirds4.png) no-repeat center;         
+}
+
+.thirdsthree {
+    background:transparent url(../img/thirds3.png) no-repeat center;         
+    width: 383px;
+    height: 382px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.quite {
+    height: 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    opacity: 0;
+    line-height: 30px;
+}
+.thirdsthree > div {
+    margin-top: 355px;
+    background: rgba(0,0,0,0.8);
+    height: 30px;
+    line-height: 30px;
+}
+
+.unique {
+    font-size: 14px;
+    color: rgb(255,255,255);
+}
+
+.thirdsthree:hover .quite,.thirdsfour:hover .quite,.thirdsfive:hover .quite,.thirdstwo:hover .quite,.thirdsone:hover .quite {
+    opacity: 0.8;
+    transition: 1s;
+    height: 30px;
+    background-color: rgb(20,20,20);
+    margin-top: 150px;
+}
+
+.join {
+    margin-top:10px; 
+    text-align: center;
+    color: #666666;
+    font-size: 13px;
+    color: rgb(255,255,255);
+}

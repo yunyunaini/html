@@ -1,0 +1,68 @@
+.container{
+    width: 100%;
+    height: 2100px;
+}
+
+.background {
+    width: 100%;
+	height: 450px;
+	background:transparent url(../img/background111.jpg) no-repeat center;			/*背景透明/图片/不重画/中间*/ 
+    background-size:cover;
+    margin: auto;
+}
+
+.jianjie{
+    width: 1000px;
+    height: 400px;
+    margin: 50px auto;
+    text-align: center;
+    color: #666;
+}
+
+.left{
+    width:400px;
+    float: left;
+    padding-top: 70px;
+}
+
+.right{
+    width:500px;
+    float: right;
+    padding-top: 30px;
+    padding-right: 20px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.sjal{
+    width: 1000px;
+    margin-top: 50px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.pict{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.pictone{
+    padding-top: 30px;
+}
+
+
+.chu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 900px;
+    margin: auto;
+
+}
+
+.pict img:hover,.pictone img:hover,.chu img:hover{
+    transform:scale(1.1);
+}

@@ -1,0 +1,236 @@
+#container{
+    width: 100%;
+    height: 2030px;
+    background-color: rgb(246,246,246);
+    overflow: hidden;
+}
+
+.background {
+    width: 100%;
+	height: 450px;
+	background:transparent url(../img/background.jpg) no-repeat center;			/*背景透明/图片/不重画/中间*/ 
+    background-size:cover;
+}
+
+.example ,.introduce{
+    width: 1100px;
+    height: 580px;
+    background-color: rgb(255,255,255);
+    margin:auto;
+    margin-top: 20px;
+}
+
+.introduce{
+    height: 500px;
+}
+.thread {
+    width: 1100px;
+    height:80px;
+    text-align: center;
+}
+/*题目1*/
+.secondtitletwo,.threadtitletwo,.fivthtitletwo {
+    font-size: 22px;
+    color: #333333;
+    padding: 15px;
+    text-align: center;
+}
+/*题目2*/
+.secondtitlethree,.threadtitlethree,.fivthtitlethree {
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
+/*图片的大div*/
+.secondstwo {
+    width: 1000px;
+    height: 470px;
+    position: relative;
+    left: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*图片的宽高*/
+.secondtwo,.secondthree,.secondfour
+,.secondfive,.secondsix,.secondseven {
+    width: 318px;
+    height: 210px;
+    overflow: hidden;
+}
+.quite {
+    width: 100%;
+    position: relative;
+    top: -6px;
+    text-align: center;
+    opacity: 0;
+    line-height: 20px;
+}
+.secondtwo:hover .quite,.secondthree:hover .quite,.secondfour:hover .quite,.secondfive:hover .quite,.secondsix:hover .quite,.secondseven:hover .quite{
+    opacity: 0.8;
+    top: -43px;
+    height: 40px;
+    transition: 0.8s; 
+    background-color: rgb(20,20,20);
+}
+.join {
+    text-align: center;
+    color: #666666;
+    font-size: 13px;
+    color: rgb(255,255,255);
+}
+
+.fouthone {
+    margin-left: 68px;
+    float: left;
+    background: transparent url(../img/fouth1.jpg) no-repeat center;
+    width: 480px;
+    height: 508px;
+    margin-top: -20px;
+}
+/*内容*/
+.fouthtwo {
+    position: relative;
+    margin: 0 auto;
+    top: 70px;
+    background:transparent url(../img/fouth2.png) no-repeat center;      
+    width: 60px;
+    height: 60px;
+}
+/*内容*/
+.font {
+    position: relative;
+    top: 100px;
+    left: 180px;
+    color: rgb(186, 237, 124);
+    font-size: 28px;
+    width: 300PX;
+    background-color: transparent;
+}
+/*内容*/
+.four {
+    width: 1100px;
+    height: 450px;
+    background-color: rgb(255,255,255);
+    margin:32PX auto;
+}
+.fontone {
+    color: rgb(211, 252, 158);
+    font-size: 14px;
+    margin: 120px auto;
+    width: 415px;
+    text-align: left;
+    font-family: 微软雅黑;
+    line-height: 30px;
+}
+/*右浮动块*/
+.fourone {
+    float: right;
+    width: 450px;
+    height: 320px;
+    line-height: 51px;
+    text-align: left;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+}
+.fourone input,.fourone select {
+    width: 330px;
+    height: 27px;
+    font-size: 13px;
+    color: #999999;
+}
+
+.table {
+    width: 200px;
+    height: 27px;
+}
+
+
+.renshi {
+    width:1100px;
+    height: 400px;
+    background-color: rgb(255,255,255);
+    margin:20px auto;
+}
+
+.blockone {
+    height: 280px;
+    width:560px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.blockone>div {
+    height:140px;
+    width:560px;
+}
+/*小图片*/
+.fivthone,.fivthtwo {
+    height: 100px;
+    width:150px;
+}
+.fivthone {
+    background:transparent url(../img/fivth1.png) no-repeat center;
+} 
+/*小图片*/
+.fivthtwo {
+    background:transparent url(../img/fivth2.png) no-repeat center;
+}
+/*右图片*/
+.fivththree {
+    width: 400px;
+    height: 250px;
+    background:transparent url(../img/fivth3.png) no-repeat center;
+    float: right;
+    margin-top: -280px;
+    margin-right: 50px;
+}
+
+.fivththree>div {
+    width: 100%;
+    height: 30px;
+    margin-top: 200px;
+    text-align: center; 
+    background-color: black;
+    opacity: 0.7;
+}
+
+.scentencefive {
+    color: rgb(255,255,255);
+    font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 30px;
+}
+
+/*文字*/
+.scentenceone,.scentencethree {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    color: #666666;
+}
+.scentenceone:hover,.scentencethree:hover {
+    color: #4ab344;
+    cursor: pointer;
+}
+.scentenceone{
+    margin-top: -96px;
+    margin-left: 165px;
+}
+.scentencethree {
+    margin-top: -94px;
+    margin-left: 164px;
+}
+.scentencetwo,.scentencefour {
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #797979;
+    margin-left:165px; 
+    width: 350px;
+    text-align: left;
+    line-height: 18px;
+}
+
+

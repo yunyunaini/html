@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    height: 2300px;
+}
+
+.background {
+    width: 100%;
+	height: 450px;
+	background:transparent url(../img/background11.jpg) no-repeat center;			/*背景透明/图片/不重画/中间*/ 
+    background-size:cover;
+    margin: auto;
+}
+
+.ptitle,.img{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.jia{
+    font-size:14px;
+    color:rgb(146, 146, 146); 
+    text-align: center;
+    margin: 30px;
+}
+
+.styleone{
+    width: 800px;
+    margin: auto;
+}
+
+.yinhan{
+    width: 800px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.yinhan img:hover{
+    transform: scale(2);
+    transition:  1s linear;
+}

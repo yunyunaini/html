@@ -1,0 +1,33 @@
+#container{
+    width: 100%;
+    height: 2150px;
+    background-color: rgb(246,246,246);
+    overflow: hidden;
+}
+
+.background {
+    width: 100%;
+	height: 450px;
+	background:transparent url(../img/background.jpg) no-repeat center;			/*背景透明/图片/不重画/中间*/ 
+    background-size:cover;
+}
+
+.confair>div{
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+    line-height: 30px;
+    text-align: center;
+}
+
+.confair>div>p{
+    text-align: left;
+    font-size: 14px;
+    color: #676767;
+    padding-top: 30px;
+    font-family: "微软雅黑";
+}
+
+.confair>div>img{
+    padding-top: 20px;
+}

@@ -1,0 +1,87 @@
+.container{
+    width: 100%;
+    height: 1150px;
+}
+
+.background {
+    width: 100%;
+	height: 450px;
+	background:transparent url(../img/background11.jpg) no-repeat center;			/*背景透明/图片/不重画/中间*/ 
+    background-size:cover;
+    margin: auto;
+}
+
+.title {
+	width: 985px;
+	height:50px;
+	display: flex;
+	flex-wrap: wrap;justify-content: space-around;
+	margin: auto;
+	margin-top:40px;
+}
+.titleone,.titletwo,.titlethree {
+	color: #666666;
+	font-family:微软雅黑;
+	font-size: 23px;
+	background: rgb(255,255,255);
+	text-align: center;
+	border-radius: 30%;
+	height: 30px;
+	width: 110px;
+    padding: 15px;
+}
+.titleone{
+	background-color: #4ab344;
+	color: white;
+}
+.titleone:hover,.titletwo:hover,.titlethree:hover {
+	background-color: #4ab344; 
+	color: white;
+}
+.blockone,.blocktwo,.blockthree {
+	width: 985px;
+	height: 560px;
+	background-color: white;
+	line-height: 30px;
+	margin: auto; 
+	margin-top: 30px;
+}
+.blockone > div,.blocktwo > div,.blockthree > div {
+	width: 985px;
+	height: 110px;
+}
+.ff{
+	width: 800px;
+	height: 100px;
+	margin: -110px 10px 0px 176px;
+}
+.content {
+	display: block;
+}
+.content-first {
+	display: none;
+}
+
+.ft {
+	font-size: 14px;
+	font-weight: bold;
+	color: rgb(100, 100, 100);
+	margin-top: 10px
+}
+.ft:hover {
+	color: #4ab344;
+	cursor: pointer;
+}
+.fs {
+	display: block;
+	width: 800px;
+    color: #797979;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.style{
+    height: 100px;
+    width: 150px;
+    padding: 10px 10px 0px 10px;
+}

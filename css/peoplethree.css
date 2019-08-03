@@ -1,0 +1,53 @@
+.container{
+    width: 100%;
+    height: 2500px;
+}
+
+.background {
+    width: 100%;
+	height: 450px;
+	background:transparent url(../img/background.jpg) no-repeat center;			/*背景透明/图片/不重画/中间*/ 
+    background-size:cover;
+    margin: auto;
+}
+.jj{
+    width: 1000px;
+    height:700px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.font,.fon{
+    padding-top: 120px;
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    border-top:5px solid #666;
+}
+
+.font{
+    line-height: 50px;
+    text-align: left;
+}
+
+.tupian{
+    width: 1000px;
+    height: 1200px;
+    margin: auto;
+    border-bottom: 5px  solid #666;
+    border-right: 5px  solid #666;
+}
+
+.tupian img{
+    margin: auto;
+    margin-left:180px;
+}
+
+.tupian{
+    color: #666;
+    font-size: 20px;
+}
+
+

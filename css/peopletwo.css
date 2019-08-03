@@ -1,0 +1,65 @@
+.container{
+    width: 100%;
+    height: 2000px;
+}
+
+.background {
+    width: 100%;
+	height: 450px;
+	background:transparent url(../img/background11.jpg) no-repeat center;			/*背景透明/图片/不重画/中间*/ 
+    background-size:cover;
+    margin: auto;
+}
+
+.znsjj{
+    width: 1000px;
+    height: 500px;
+    margin: 50px auto;
+    border: 5px #666 solid;
+}
+
+.left{
+    width: 100px;
+    height: 100%;
+    float: left;
+    writing-mode:lr-tb;
+    font-size: 30px;
+    padding-top: 100px;
+    color: #666;
+    padding-left: 50px;
+}
+
+.right{
+    width: 700px;
+    height: 100%;
+    float: right;
+    color: #666;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.grz{
+    width: 1000px;
+    height: 900px;
+    border: 5px #666 solid;
+    margin: auto;
+}
+
+.one{
+    width: 100px;
+    float: left;
+    font-size: 40px;
+    color: #666;
+    padding-top:170px;
+}
+
+.two{
+    width: 600px;
+    height: 100%;
+    float: right;
+    border-left: 5px #666 solid;
+}
+
+.two img{
+    padding: 5px  120px;
+}
